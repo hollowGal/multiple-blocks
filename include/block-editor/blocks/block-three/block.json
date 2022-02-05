@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "multiple-blocks/block-three",
+	"version": "0.1.0",
+	"title": "Multiple - block three",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "multiple-blocks",
+	"editorScript": "file:../../../../build/block-three.js",
+	"editorStyle": "file:../../../../build/block-three.css",
+	"style": "file:../../../../build/style-block-three.css"
+}
